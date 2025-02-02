@@ -22,7 +22,7 @@ async def start(message: types.Message):
     keyboard = InlineKeyboardBuilder()
     keyboard.add(InlineKeyboardButton(
         text="Open Mini App",
-        web_app={"url": "https://your-github-pages-url.com"}
+        web_app={"url": "https://tg-bot-yurw.onrender.com"}
     ))
     await message.answer("Welcome! Click the button below to open the mini app.", reply_markup=keyboard.as_markup())
 
